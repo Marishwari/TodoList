@@ -28,7 +28,7 @@ function Content(){
             },
             {
                 id:5,
-                checked:false,
+                checked:true,
                 item:"sleeping 8 Hours"
 
             }
