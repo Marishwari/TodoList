@@ -2,9 +2,19 @@
     padding: 0;
     margin: 0;
 }
-.header h1{
-    background-color:rgb(99, 207, 234);
-    color: white;
-    padding: 5px;
+.header{
+    flex-basis: 20%;
+    position: absolute;
+    background-color:rgb(241, 232, 245);
+    color: black;
+    width: 100%;
     text-align: center;
+    position: fixed;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    top:0;
+    z-index: 100;
+    font-family:'Times New Roman', Times, serif;
+
 }

@@ -1,0 +1,27 @@
+.AddItem{
+   flex-basis: 10%;
+   display:flex;
+   margin-top:100px ;
+  z-index: 2;
+
+}
+.AddItem input[type="text"]{
+    padding: 10px;
+    font-size: 15px;
+    width:300px;
+    outline: none;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+.AddItem button{
+  margin-left: 10px;
+    
+    border: 1px solid transparent;
+    background-color:transparent ;
+}
+.AddItem button svg{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    color: green;
+}

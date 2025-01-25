@@ -1,0 +1,13 @@
+.searchBar {
+    position: relative; /* Ensure it's not accidentally positioned off-screen */
+    overflow: visible;
+    margin-top: 20px; 
+    display: flex;
+    align-items: center;/* Ensure no clipping of content */
+}
+input{
+    display: "block";
+    padding: 8px;
+    width:250px;
+    outline: none;
+}
